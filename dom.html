@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width="device-width", initial-scale=1.0">
+    <title>BUTON HAREKETLERİ</title>
+</head>
+<body>
+    <button onclick="tikla()">A</button>
+    <button onmouseover="uzerineGelme()">B</button>
+    <button onmouseleave="uzerindenAyrilma()">C</button>
+</body>
+<script>
+    function tikla(){
+        alert("A butonunun tıkladınız");
+        document.body.style.backgroundColor="yellow";
+    }
+    function uzerineGelme(){
+        alert("B butonunun üzerine geldiniz");
+        document.body.style.backgroundColor="red";
+    }
+    function uzerindenAyrilma(){
+        alert("C butonunun üzerinden ayrıldınız");
+        document.body.style.backgroundColor="blue"
+    }
+</script>
+</html>
